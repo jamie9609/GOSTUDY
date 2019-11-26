@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Web Programming</title>
+</head>
+<body>
+{{ if . }}
+Number is greater than 5!
+{{ else }}
+Number is 5 or less!
+{{ end }}
+<ul>
+    {{ range . }}
+            <li>
+                {{ . }}
+            </li>
+        {{ else }}
+        <li>
+            nothing to show!
+        </li>
+    {{ end }}
+</ul>
+<div>
+    this is template1.html before
+</div>
+<div>
+    this is the value of the dot in template.html - [{{ . }}]
+</div>
+<div>
+    {{ range $key, $value := . }}
+        the key is {{ $key }} and the value is {{ $value }}<br>
+            {{ end }}
+    {{ 12.345 | printf "%.2f" }}<br>
+</div>
+<div>
+    the time/date is {{ . }}
+</div>
+<hr/>
+{{ template "tmpl2.html" . }}
+<hr/>
+<div>
+    this is template.html after
+</div>
+
+<hr/>
+<div>
+<form action = "/world" method="post">
+    comment : <input name = "comment" type="text">
+    <hr/>
+    <button id="submit">Submit</button>
+</form>
+</div>
+<hr/>
+
+
+</body>
+</html>

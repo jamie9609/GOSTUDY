@@ -1,4 +1,4 @@
-package Chapter3_1
+package main
 
 import (
 	"fmt"
@@ -13,7 +13,7 @@ func world(w http.ResponseWriter, r *http.Request)  {
 	fmt.Fprintf(w, "world!")
 }
 
-func main1(){
+func main(){
 	server := http.Server{
 		Addr: "127.0.0.1:8080",
 	}
