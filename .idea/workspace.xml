@@ -31,25 +31,7 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="10.135.7.23" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="10.135.7.23" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="10.135.7.23" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="chitchat: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="10.135.7.23" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="chitchat: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="posts: table" type="98d5ac3d:MysqlImplModel$Table" />
+        <item name="192.168.43.184" type="feb32156:DbDataSourceImpl" />
       </path>
     </expand>
     <select />
@@ -257,86 +239,102 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build main.go">
-    <configuration name="go build goroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build GOSTUDY/Chapter8.2">
+    <configuration name="go build GOSTUDY/Chapter8.2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GOSTUDY" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="GOSTUDY/Chapter8.2" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build data.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GOSTUDY" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Chapter7.1/goroutine.go" />
+      <filePath value="$PROJECT_DIR$/Chapter8.2/data.go" />
       <package value="GOSTUDY" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_db.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GOSTUDY" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Chapter8.1/main.go" />
+      <filePath value="$PROJECT_DIR$/test_db/test_db.go" />
       <package value="GOSTUDY" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build store_data_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInit in GOSTUDY/Chapter8.2" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="GOSTUDY" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Chapter6.1/store_data_1.go" />
-      <package value="GOSTUDY" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="GOSTUDY" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Chapter7.1/test.go" />
-      <package value="GOSTUDY" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestDecode in GOSTUDY/Chapter8.1" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="GOSTUDY" />
-      <working_directory value="$PROJECT_DIR$/Chapter8.1" />
+      <working_directory value="$PROJECT_DIR$/Chapter8.2" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="GOSTUDY/Chapter8.1" />
+      <package value="GOSTUDY/Chapter8.2" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDecode$" />
+      <pattern value="^TestInit$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="GOSTUDY" />
+      <working_directory value="$PROJECT_DIR$/Chapter8.2" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="GOSTUDY" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/Chapter8.2/data_test.go" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build store_data_1.go" />
-      <item itemvalue="Go Build.go build test.go" />
-      <item itemvalue="Go Build.go build goroutine.go" />
-      <item itemvalue="Go Build.go build main.go" />
-      <item itemvalue="Go Test.TestDecode in GOSTUDY/Chapter8.1" />
+      <item itemvalue="Go Build.go build GOSTUDY/Chapter8.2" />
+      <item itemvalue="Go Build.go build data.go" />
+      <item itemvalue="Go Test.TestInit in GOSTUDY/Chapter8.2" />
+      <item itemvalue="Go Build.go build test_db.go" />
+      <item itemvalue="Go Test.data_test.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build main.go" />
-        <item itemvalue="Go Test.TestDecode in GOSTUDY/Chapter8.1" />
-        <item itemvalue="Go Build.go build goroutine.go" />
-        <item itemvalue="Go Build.go build test.go" />
-        <item itemvalue="Go Build.go build store_data_1.go" />
+        <item itemvalue="Go Build.go build GOSTUDY/Chapter8.2" />
+        <item itemvalue="Go Test.data_test.go" />
+        <item itemvalue="Go Build.go build test_db.go" />
+        <item itemvalue="Go Build.go build data.go" />
+        <item itemvalue="Go Test.TestInit in GOSTUDY/Chapter8.2" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="go_test_Chapter5_1 - 2019.11.22 at 00h 28m 00s.xml">
-      <configuration name="go test Chapter5.1" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="go_test_Chapter5_1 - 2019.11.22 at 00h 28m 20s.xml">
-      <configuration name="go test Chapter5.1" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHelloHandleFunc_in_GOSTUDY_go-test - 2019.12.02 at 23h 31m 36s.xml">
-      <configuration name="TestHelloHandleFunc in GOSTUDY/go-test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHelloHandleFunc_in_GOSTUDY_go-test - 2019.12.02 at 23h 31m 39s.xml">
-      <configuration name="TestHelloHandleFunc in GOSTUDY/go-test" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestDecode_in_GOSTUDY_Chapter8_1 - 2019.12.08 at 21h 15m 44s.xml">
       <configuration name="TestDecode in GOSTUDY/Chapter8.1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkUnmarshal_in_GOSTUDY_Chapter8_1 - 2019.12.09 at 15h 05m 30s.xml">
+      <configuration name="BenchmarkUnmarshal in GOSTUDY/Chapter8.1" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 49m 41s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 49m 46s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 52m 02s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 52m 36s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 53m 40s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 54m 02s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInit_in_GOSTUDY_Chapter8_2 - 2019.12.09 at 15h 54m 29s.xml">
+      <configuration name="TestInit in GOSTUDY/Chapter8.2" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="data_test_go - 2019.12.09 at 16h 06m 25s.xml">
+      <configuration name="data_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
