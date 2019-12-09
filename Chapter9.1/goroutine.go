@@ -1,17 +1,24 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func printNumbers1()  {
 	for i := 0; i< 10; i++{
+		time.Sleep(1*time.Microsecond)
 		fmt.Printf("%d", i)
 	}
+	fmt.Print("\n")
 }
 
 func printLetters1()  {
 	for i := 'A'; i< 10+'A'; i++ {
+		time.Sleep(1*time.Microsecond)
 		fmt.Printf("%c", i)
 	}
+	fmt.Print("\n")
 }
 
 func print1(){
