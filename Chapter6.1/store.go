@@ -16,7 +16,7 @@ func store(post Post)  {
 	PostsByAuthor[post.Author] = append(PostsByAuthor[post.Author], &post)
 }
 
-func main()  {
+func main1()  {
 	PostById = make(map[int]*Post)
 	PostsByAuthor = make(map[string][]*Post)
 
