@@ -16,10 +16,11 @@ import (
 
 func main()  {
 	mux := http.NewServeMux()
-	files := http.FileServer(http.Dir("public"))
+	files := http.FileServer(http.Dir("Chapter9.3/public"))
 	mux.Handle("/static/",http.StripPrefix("/static/", files))
 	mux.HandleFunc("/", upload)
-	mux.HandleFunc("／mosaic", mosaic)
+	mux.HandleFunc("/mosaic", mosaic)
+	//访问 http://127.0.0.1:8080/mosaic/
 	server := &http.Server{
 		Addr: "127.0.0.1:8080",
 		Handler: mux,
@@ -30,7 +31,7 @@ func main()  {
 }
 
 func upload(w http.ResponseWriter, r *http.Request)  {
-	t, _ := template.ParseFiles("upload.html")
+	t, _ := template.ParseFiles("Chapter9.3/upload.html")
 	t.Execute(w, nil)
 }
 
@@ -90,7 +91,7 @@ func mosaic(w http.ResponseWriter, r *http.Request)  {
 		"mosaic":   mosaic,
 		"duration": fmt.Sprintf("%v ", t1.Sub(t0)),
 	}
-	t, _ := template.ParseFiles("results.html")
+	t, _ := template.ParseFiles("Chapter9.3/results.html")
 	t.Execute(w, images)
 }
 

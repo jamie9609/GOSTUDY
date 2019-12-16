@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2769581-0f05-4286-b818-12744120cd34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter9.3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter9.3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9.3/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter9.3/mosaic.go" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter9.3/mosaic.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,15 +35,15 @@
     <session id="1221277054">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.1" value="12" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -53,9 +52,9 @@
           <entry key="csv" value="2" />
           <entry key="data1" value="3" />
           <entry key="data2" value="2" />
-          <entry key="go" value="127" />
-          <entry key="html" value="13" />
-          <entry key="jpg" value="1" />
+          <entry key="go" value="129" />
+          <entry key="html" value="14" />
+          <entry key="jpg" value="2" />
           <entry key="json" value="4" />
           <entry key="out" value="1" />
           <entry key="s" value="2" />
@@ -66,9 +65,9 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="CSV" value="1" />
-          <entry key="Go" value="127" />
-          <entry key="HTML" value="13" />
-          <entry key="Image" value="1" />
+          <entry key="Go" value="129" />
+          <entry key="HTML" value="14" />
+          <entry key="Image" value="2" />
           <entry key="JSON" value="2" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Scratch" value="7" />
@@ -78,7 +77,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="12708" />
+          <entry key="go" value="12711" />
           <entry key="html" value="931" />
           <entry key="sql" value="437" />
           <entry key="txt" value="20" />
@@ -86,7 +85,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="12707" />
+          <entry key="Go" value="12710" />
           <entry key="HTML" value="931" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="SQL" value="1" />
@@ -105,10 +104,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chapter9.3/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="960">
+              <caret line="64" column="29" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="29" />
               <folding>
-                <element signature="e#14#88#0" expanded="true" />
+                <element signature="e#14#150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter9.3/mosaic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="254">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="e#14#82#0" expanded="true" />
               </folding>
@@ -195,8 +194,8 @@
         <option value="$PROJECT_DIR$/Chapter9.2/channel.go" />
         <option value="$PROJECT_DIR$/Chapter9.2/channel2.go" />
         <option value="$PROJECT_DIR$/Chapter9.2/channel3.go" />
-        <option value="$PROJECT_DIR$/Chapter9.3/mosaic.go" />
         <option value="$PROJECT_DIR$/Chapter9.3/main.go" />
+        <option value="$PROJECT_DIR$/Chapter9.3/mosaic.go" />
       </list>
     </option>
   </component>
@@ -379,19 +378,19 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2811159" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12804006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24698795" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3325301" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23253012" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33150685" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32771084" />
       <window_info anchor="bottom" id="Database Changes" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19638555" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.16575342" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="11" weight="0.32168674" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -449,6 +448,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts.csv">
+      <provider editor-type-id="text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
@@ -457,7 +457,6 @@
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter6.1/store_csv.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -544,13 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="572" selection-start-line="572" selection-end-line="572" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/go1.10.1/src/net/http/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="1725" selection-start-line="1725" selection-end-line="1725" />
         </state>
       </provider>
     </entry>
@@ -698,9 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9.3/tiles/0a0baafce7cb2fe062796c1ffd1d1bb38fdf82bb.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter9.3/public/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -728,9 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter9.3/results.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///usr/local/go1.10.1/src/image/image.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-614">
@@ -738,10 +724,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go1.10.1/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="1725" selection-start-line="1725" selection-end-line="1725" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9.3/results.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter9.3/tiles/0a0baafce7cb2fe062796c1ffd1d1bb38fdf82bb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter9.3/mosaic.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="254">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           <folding>
             <element signature="e#14#82#0" expanded="true" />
           </folding>
@@ -750,10 +749,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter9.3/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="960">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="29" />
           <folding>
-            <element signature="e#14#88#0" expanded="true" />
+            <element signature="e#14#150#0" expanded="true" />
           </folding>
         </state>
       </provider>

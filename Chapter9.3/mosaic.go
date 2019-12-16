@@ -45,9 +45,9 @@ func resize(in image.Image, newWidth int) image.NRGBA {
 func tilesDB() map[string][3]float64 {
 	fmt.Println("Start populating tiles db ...")
 	db := make(map[string][3]float64)
-	files, _ := ioutil.ReadDir("tiles")
+	files, _ := ioutil.ReadDir("Chapter9.3/tiles")
 	for _, f:= range files{
-		name := "tiles/" + f.Name()
+		name := "Chapter9.3/tiles/" + f.Name()
 		file, err := os.Open(name)
 		if err == nil {
 			img, _, err := image.Decode(file)
